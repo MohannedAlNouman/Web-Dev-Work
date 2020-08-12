@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color: #393E46;
+}
+
+.heading {
+  margin: 5% 0;
+}
+
+.outcomeText {
+  font-size: 8em;
+  color: #4ECCA3;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px black;
+}
+
+.moFlag {
+  color: red;
+}
+
+.playerHeading {
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  display: inline-block;
+  width: 15%;
+  margin: 0 1%;
+}
+
+@media screen and (max-width: 1100px) {
+  .playerHeading {
+    width: 25%;
+  }
+}
+
+.diceImage {
+  width: 80%;
+}
+
+.diceSection {
+  margin-bottom: 5%;
+}
+
+.trademark {
+  color: #EEEEEE;
+  font-family: 'Indie Flower', cursive;
+}

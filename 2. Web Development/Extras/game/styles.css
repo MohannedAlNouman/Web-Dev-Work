@@ -1,0 +1,97 @@
+.directions {
+  margin: 5%;
+  text-align: center;
+}
+
+.boxSetting {
+  display: inline-block;
+  background-color: red;
+  padding: 10px;
+}
+
+.levelBoxes {
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  width: 13.75%;
+  padding: 10px 0;
+  background-color: orange;
+  visibility: hidden;
+  background-image: url("sonicRing.png");
+  background-size: contain;
+  color: white;
+  font-size: 2em;
+  -webkit-text-stroke: 3px black;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.points {
+  display: inline-block;
+}
+
+.lockIn {
+  width: 10%;
+  background-color: orange;
+  margin: 10px auto 0;
+}
+
+.game {
+  /* margin: 10px auto; */
+  text-align: center;
+  position: relative;
+}
+
+.scoreboard {
+  display: inline-block;
+  text-align: right;
+}
+
+.gameScreen {
+  width: 800px;
+  height: 800px;
+  border: solid;
+  display: inline-block;
+  text-align: right;
+}
+
+.helicopter {
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  position: relative;
+  left: 200px;
+  top: 740px;
+  background-image: url("sonic.jpg");
+  background-size: contain;
+}
+
+.gas {
+  width: 80px;
+  height: 80px;
+  background-color: grey;
+  border: solid;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  position: relative;
+  bottom: 400px;
+}
+
+.barrier {
+  color: red;
+  border: solid;
+  border-width: 0 1px;
+  position: relative;
+  height: 800px;
+  width: 2;
+  display: inline-block;
+  bottom: 60px;
+  visibility: hidden;
+}
